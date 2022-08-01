@@ -1,0 +1,3 @@
+{
+    "getCoins" : "query GetCoins($activeSection: SectionInput!, $pagination: PaginationInput, $order: OrderInput) {\n        coins(section: $activeSection, pagination: $pagination, order: $order) {\n          id\n          name\n          chain\n          symbol\n          launchDate\n          totalUpvotes\n          upvotesToday\n          isUpvoted\n logo\n          createdOn\n          isCaptchaEnabled\n          isLogoDownloaded\n          useManualPrice\n          currentMarketCap\n          oneHourComparison\n          oneDayComparison\n          version\n          isVerified\n          isHoneypot\n          isScanned\n          audit\n          __typename\n        }\n      }"
+}
